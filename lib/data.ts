@@ -25,7 +25,7 @@ export const SKILLS = [
   {
     category: "Tools & Platforms",
     icon: "Wrench",
-    skills: ["Git", "GitHub", "Vercel", "WordPress",  "Postman", "VS Code"],
+    skills: ["Git", "GitHub", "Vercel", "WordPress", "Postman", "Firebase Hosting" ,  "VS Code"],
   },
   // {
   //   category: "DevOps",
@@ -37,17 +37,17 @@ export const SKILLS = [
 export const PROJECTS = [
   {
     id: "moc-ptw-safety-management-system",
-    title: "MOC-PTW Safety Management System — Workflow and Safety Approval Platform",
+    title: "MOC-PTW Safety Management System",
     summary:
-      "A workplace safety management platform built to digitize Management of Change and Permit to Work processes. The system helps teams create requests, route approvals by role, monitor progress, and maintain clear audit visibility for safer and more structured operations.",
+      "A multi-stakeholder safety workflow system that digitizes Management of Change (MOC) and Permit to Work (PTW) processes. Improves request tracking, approvals, and audit visibility for safer operations.",
     image: "/images/unilever.png",
     tech: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS"],
     features: [
+      "Backend APIs and database design with Supabase",
       "Role-based authentication and access control",
-      "MOC request creation and review workflow",
-      "Permit to Work approval process",
+      "MOC and PTW request creation and approval workflow",
       "Progress tracking and closure logs",
-      "Dashboard for activity and status monitoring",
+      "Dashboard for activity monitoring",
     ],
     tags: ["Safety System", "Full Stack", "Workflow"],
     liveUrl: "https://unilever-alpha.vercel.app/",
@@ -55,74 +55,71 @@ export const PROJECTS = [
     featured: true,
   },
   {
-    id: "real-estate-listing-platform",
-    title: "Real Estate Listing Platform — Property Search and Booking Experience",
+    id: "crown-hostel-management-system",
+    title: "Crown Hostel Management System",
     summary:
-      "A real estate platform designed to help users explore property listings through a clean and responsive interface. It supports browsing, filtering, inquiry flow, and payment integration, making it easier for users to discover and engage with available properties online.",
-    image: "/",
+      "A full-stack hostel management system to manage resident data and track payments. Residents log in, upload payment proofs, and admins verify and update records.",
+    image: "/images/crownhostel.png",
+    tech: ["React", "Firebase", "Tailwind CSS"],
+    features: [
+      "Resident registration and data management",
+      "QR-based payment tracking system",
+      "Upload and verification of payment screenshots",
+      "Admin panel for managing hostel records",
+    ],
+    tags: ["Hostel Management", "Full Stack", "Admin Panel"],
+    liveUrl: "https://crownhostel-bb4da.web.app/", // update if hosted
+    githubUrl: "https://github.com/LakshmiKrishnaSanjay/CrownHostel", 
+    featured: true,
+  },
+  {
+    id: "real-estate-listing-platform",
+    title: "Real Estate Listing Platform",
+    summary:
+      "A MERN stack platform to browse, filter, and book property listings online. Includes user authentication, inquiries, and payment workflow.",
+    image: "/images/realestate.png",
     tech: ["React", "Node.js", "MongoDB", "Razorpay", "Tailwind CSS"],
     features: [
       "Property listing and detail pages",
       "Advanced search and filter options",
-      "Inquiry and booking flow",
+      "Inquiry and booking workflow",
       "Razorpay payment integration",
-      "Responsive user interface for all devices",
+      "Responsive UI for all devices",
     ],
     tags: ["Real Estate", "Full Stack", "Booking"],
     liveUrl: "https://github.com",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/LakshmiKrishnaSanjay/EstateHub",
     featured: true,
   },
   {
-    id: "event-scheduler-app",
-    title: "Event Scheduler App — Event Planning and Management Tool",
-    summary:
-      "A web application created to simplify event scheduling and organization. Users can create events, manage time slots, and keep track of updates in a clean dashboard experience backed by Firebase for real-time data handling.",
-    image: "/",
-    tech: ["React", "Firebase", "Tailwind CSS"],
-    features: [
-      "Create and manage events",
-      "Schedule date and time slots",
-      "Real-time data sync with Firebase",
-      "Simple dashboard for event overview",
-      "Responsive interface for easy planning",
-    ],
-    tags: ["Productivity", "Web App", "Scheduler"],
-    liveUrl: "https://github.com",
-    githubUrl: "https://github.com",
-    featured: true,
-  },
-  {
-    id: "personal-developer-portfolio",
-    title: "Personal Developer Portfolio — Interactive Showcase Website",
-    summary:
-      "A modern portfolio website built to present projects, skills, and experience in a clean and professional way. The site focuses on strong visual presentation, smooth interactions, and responsive design to create a polished first impression for recruiters and clients.",
-    image: "/",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    features: [
-      "Responsive multi-section portfolio layout",
-      "Smooth animations and transitions",
-      "Project showcase with featured work",
-      "Experience and skills presentation",
-      "Contact section for client and recruiter outreach",
-    ],
-    tags: ["Portfolio", "Frontend", "Personal Brand"],
-    liveUrl: "https://github.com",
-    githubUrl: "https://github.com",
-    featured: true,
-  },
+  id: "babymom-ecommerce-website",
+  title: "BabyMom E-Commerce Website",
+  summary:
+    "An online shop for BabyMom, selling tailor-made baby dresses. Built to provide a seamless shopping experience with product listings, order management, and responsive design for all devices.",
+  image: "/images/babymom.png",
+  tech: ["WordPress", "Plugins", "CSS"],
+  features: [
+    "Product catalog with categories and detailed listings",
+    "Order tracking and management system",
+    "Responsive design for mobile and desktop",
+    "Easy content and product management via WordPress admin"
+  ],
+  tags: ["WordPress", "E-Commerce", "Shop"],
+  liveUrl: "https://babymomfashion.com/", // replace if hosted
+  githubUrl: "https://github.com", 
+  featured: false,
+},
   {
     id: "wordpress-business-website",
-    title: "WordPress Business Website — Corporate Web Presence",
+    title: "WordPress Business Website",
     summary:
-      "A business website developed in WordPress to present company services, improve online presence, and provide a professional digital touchpoint for customers. The project focused on clear content structure, responsive styling, and a user-friendly experience for business audiences.",
-    image: "/",
+      "Custom WordPress websites for businesses to present services and improve online presence. Focus on clean UI, responsive design, and easy content management.",
+    image: "/images/wordpress.png",
     tech: ["WordPress", "PHP", "CSS"],
     features: [
-      "Custom business website pages",
-      "Service-focused content structure",
-      "Responsive layout for mobile and desktop",
-      "Editable backend through WordPress admin",
+      "Custom business pages and content structure",
+      "Responsive design for mobile and desktop",
+      "Editable backend via WordPress admin",
       "Clean and professional UI styling",
     ],
     tags: ["WordPress", "Business Website", "CMS"],
@@ -130,7 +127,7 @@ export const PROJECTS = [
     githubUrl: "https://github.com",
     featured: false,
   },
-]
+];
 
 export const CASE_STUDIES = [
   {

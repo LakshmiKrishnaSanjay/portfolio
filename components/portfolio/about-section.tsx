@@ -53,33 +53,41 @@ export function AboutSection() {
           >
             <SectionHeading
               eyebrow="About Me"
-              title="Building for the web, obsessed with craft."
+              title="Building and deploying real-world web applications"
               align="left"
             />
 
-            <div className="mt-8 space-y-5 text-base leading-relaxed text-muted-foreground text-justify">
-              <p>
-                I’m a Web Developer with 1+ year of experience building modern web
-                applications using technologies like <span className="text-foreground font-medium">Next.js</span>,{" "}
-                <span className="text-foreground font-medium">React</span>,{" "}
-                <span className="text-foreground font-medium">TypeScript</span> and{" "}
-                <span className="text-foreground font-medium">Supabase</span>. I enjoy
-                developing clean, responsive interfaces and building practical
-                solutions that improve user experience.
-                </p>
-                <p>
-                  I have experience working with modern web tools including <span className="text-foreground font-medium">
-                  WordPress, Firebase, and full-stack JavaScript frameworks   </span> . I like working across
-                  both frontend and backend, from designing UI components to managing
-                  data and APIs.
-                  </p>
-                  <p>
-                    I’m continuously learning new technologies and improving my skills as
-                    a developer. Currently, I’m focused on building scalable web
-                    applications, exploring modern development tools, and growing my
-                    experience in full-stack development.
-                    </p>
-            </div>
+<div className="mt-8 space-y-5 text-base leading-relaxed text-muted-foreground text-justify">
+  <p>
+    I’m a full stack developer with hands-on experience building and deploying real-world web
+    applications. I’ve worked with technologies like{" "}
+    <span className="text-foreground font-medium">React</span>,{" "}
+    <span className="text-foreground font-medium">Next.js</span>,{" "}
+    <span className="text-foreground font-medium">Supabase</span>,{" "}
+    <span className="text-foreground font-medium">Firebase</span>, and{" "}
+    <span className="text-foreground font-medium">MongoDB</span> to develop applications that handle
+    authentication, data management, and user workflows.
+  </p>
+
+  <p>
+    Recently, I worked on a multi-stakeholder safety management system where I contributed to backend
+    development, including API logic, authentication, and workflow handling. This experience helped me
+    understand how real-world systems operate beyond basic CRUD applications.
+  </p>
+
+  <p>
+    I also have experience deploying applications using platforms like{" "}
+    <span className="text-foreground font-medium">Vercel</span> and{" "}
+    <span className="text-foreground font-medium">Firebase</span>, and I’m currently learning cloud
+    technologies like <span className="text-foreground font-medium">AWS</span> to improve my deployment
+    and scalability skills.
+  </p>
+
+  <p>
+    I enjoy building clean, functional applications and continuously improving my skills as a developer
+    by working on real-world projects.
+  </p>
+</div>
 
             {/* Stats */}
             {/* <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
