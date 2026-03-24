@@ -168,7 +168,7 @@ export const EXPERIENCE = [
     duration: "Feb 2025 — Present",
     type: "full-time",
     description:
-      "Building backend APIs, database schemas, and integrating third-party services for web applications using Next.js, Node.js,  and Supabase.",
+      "Developed backend systems for client projects, including REST APIs for authentication, database schema design using Supabase, and integration of payment gateways and notification services.",
     achievements: [
       "Developed and maintained REST APIs and real-time features for internal projects",
       "Integrated Supabase for authentication and database management",

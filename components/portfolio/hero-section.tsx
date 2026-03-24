@@ -71,9 +71,10 @@ export function HeroSection() {
             variants={itemVariants}
             className="mt-4 text-xl font-medium text-muted-foreground sm:text-2xl"
           >
-            Junior Backend Developer | WordPress Developer | Full Stack Developer (Early Career) &mdash; I build{" "}
-            <span className="text-foreground font-semibold">static and dynamic websites, scalable backend systems, APIs, and deploy real-world applications</span>{" "}
-            using modern web technologies.
+
+            
+            Full Stack Developer &mdash; I build web applications from database to deployment using {" "}
+            <span className="text-foreground font-semibold">React, Next.js, Node.js, and modern cloud platforms.</span>
           </motion.p>
 
           {/* Bio */}

@@ -153,7 +153,7 @@ function ContactForm() {
         </label>
         <Textarea
           id="message"
-          placeholder="Share the job role, interview details, or your message here..."
+          placeholder="Your message..."
           {...register("message")}
           className="h-60 resize-none border-border/50 bg-secondary focus:border-primary/60"
         />

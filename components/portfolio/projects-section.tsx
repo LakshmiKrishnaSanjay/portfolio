@@ -130,7 +130,7 @@ export function ProjectsSection() {
         <SectionHeading
           eyebrow="Projects"
           title="Things I've built"
-          description="A selection of real-world projects — from SaaS platforms to developer tools and open-source libraries. Each one represents a different challenge and set of technical decisions."
+          description="Web applications I've built — from safety management systems to e-commerce platforms and hostel management tools."
         />
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

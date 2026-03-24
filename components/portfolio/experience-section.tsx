@@ -14,7 +14,7 @@ export function ExperienceSection() {
         <SectionHeading
           eyebrow="Experience"
           title="Where I've worked"
-          description="A timeline of my professional journey — from frontend engineering at product-focused startups to senior roles at fast-growing tech companies."
+          description="My professional experience building web applications and working with development teams."
         />
 
         <div className="mt-14 relative">

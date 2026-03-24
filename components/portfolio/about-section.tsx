@@ -75,17 +75,15 @@ export function AboutSection() {
     understand how real-world systems operate beyond basic CRUD applications. 
   </p>
 
-  <p>
-    I also have experience deploying applications using platforms like{" "}
+  <p> 
+    I deploy applications using {" "}
     <span className="text-foreground font-medium">Vercel</span> and{" "}
-    <span className="text-foreground font-medium">Firebase</span>, and I’m currently learning cloud
-    technologies like <span className="text-foreground font-medium">AWS</span> to improve my deployment
-    and scalability skills.
+    <span className="text-foreground font-medium">Firebase</span>, and I’m currently learning  
+    <span className="text-foreground font-medium"> AWS</span>  to work with cloud infrastructure at scale.
   </p>
 
   <p>
-    I enjoy building clean, functional applications and continuously improving my skills as a developer
-    by working on real-world projects.
+   I focus on writing maintainable code and shipping features that solve real problems.
   </p>
 </div>
 
