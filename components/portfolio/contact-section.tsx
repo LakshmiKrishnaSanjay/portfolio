@@ -115,7 +115,7 @@ function ContactForm() {
           </label>
           <Input
             id="name"
-            placeholder="Jane Smith"
+            placeholder="Name"
             {...register("name")}
             className="border-border/50 bg-secondary focus:border-primary/60"
           />
@@ -134,7 +134,7 @@ function ContactForm() {
           <Input
             id="email"
             type="email"
-            placeholder="jane@company.com"
+            placeholder="email"
             {...register("email")}
             className="border-border/50 bg-secondary focus:border-primary/60"
           />
@@ -153,7 +153,7 @@ function ContactForm() {
         </label>
         <Textarea
           id="message"
-          placeholder="Tell me about your project, timeline, and what you're looking for…"
+          placeholder="Share the job role, interview details, or your message here..."
           {...register("message")}
           className="h-60 resize-none border-border/50 bg-secondary focus:border-primary/60"
         />
@@ -194,8 +194,8 @@ export function ContactSection() {
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading
           eyebrow="Contact"
-          title="Let&apos;s build something great"
-          description="Whether you're looking to hire a senior engineer, need a technical partner for your next product, or want to collaborate on something interesting — I'd love to hear from you."
+        title="Open to opportunities"
+        description="I’m currently exploring new opportunities. If you’re hiring or would like to discuss an interview, I’d be happy to connect."
         />
 
         <div className="mt-14 grid gap-12 lg:grid-cols-5">
@@ -251,8 +251,8 @@ export function ContactSection() {
                 <p className="text-sm font-semibold text-foreground">Currently available</p>
               </div>
               <p className="text-xs leading-relaxed text-muted-foreground">
-                I&apos;m open to senior engineering roles, freelance projects, and technical
-                advisory positions. Response time is typically within 24 hours.
+                I&apos;m open to suitable opportunities in software development. If your team is hiring or would like to arrange an interview, I&apos;d be pleased to connect.
+
               </p>
             </div>
           </motion.div>

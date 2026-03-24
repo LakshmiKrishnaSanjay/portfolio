@@ -72,7 +72,7 @@ export function AboutSection() {
   <p>
     Recently, I worked on a multi-stakeholder safety management system where I contributed to backend
     development, including API logic, authentication, and workflow handling. This experience helped me
-    understand how real-world systems operate beyond basic CRUD applications.
+    understand how real-world systems operate beyond basic CRUD applications. 
   </p>
 
   <p>

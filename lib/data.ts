@@ -106,27 +106,27 @@ export const PROJECTS = [
   ],
   tags: ["WordPress", "E-Commerce", "Shop"],
   liveUrl: "https://babymomfashion.com/", // replace if hosted
-  githubUrl: "https://github.com", 
+  githubUrl: "https://github.com/LakshmiKrishnaSanjay", 
   featured: false,
 },
-  {
-    id: "wordpress-business-website",
-    title: "WordPress Business Website",
-    summary:
-      "Custom WordPress websites for businesses to present services and improve online presence. Focus on clean UI, responsive design, and easy content management.",
-    image: "/images/wordpress.png",
-    tech: ["WordPress", "PHP", "CSS"],
-    features: [
-      "Custom business pages and content structure",
-      "Responsive design for mobile and desktop",
-      "Editable backend via WordPress admin",
-      "Clean and professional UI styling",
-    ],
-    tags: ["WordPress", "Business Website", "CMS"],
-    liveUrl: "https://github.com",
-    githubUrl: "https://github.com",
-    featured: false,
-  },
+{
+  id: "nextrip-global",
+  title: "NexTrip Global",
+  summary:
+    "A travel business website designed to showcase travel services, custom packages, and itinerary planning with a clean and professional user experience.",
+  image: "/images/nextrip-global.png",
+  tech: ["WordPress", "PHP", "CSS"],
+  features: [
+    "Travel service pages and package presentation",
+    "Responsive design for mobile and desktop",
+    "Editable backend via WordPress admin",
+    "Clean and user-friendly interface",
+  ],
+  tags: ["WordPress", "Travel Website", "CMS"],
+  liveUrl: "https://nextripglobal.com",
+  githubUrl: "https://github.com/LakshmiKrishnaSanjay",
+  featured: false,
+},
 ];
 
 export const CASE_STUDIES = [
@@ -175,7 +175,7 @@ export const EXPERIENCE = [
       "Optimized backend performance and data querying for faster response times",
       "Implemented secure user authentication and role-based access control"
     ],
-    tech: ["Next.js", "Node.js", "Supabase", "TypeScript", "MongoDB" , "APIs"],
+    tech: ["Next.js", "Node.js","React", "Supabase", "TypeScript", "MongoDB" , "APIs"],
   },
 {
   title: "Web Developer",
@@ -184,12 +184,12 @@ export const EXPERIENCE = [
   duration: "Jul 2025 — Dec 2025",
   type: "full-time",
   description:
-    "Built and customized WordPress websites for clients, and developed a React + Firebase web application for internal tools and small-scale projects.",
+    "Built and customized WordPress websites for clients, and developed React + Firebase web application for internal tools and small-scale projects.",
   achievements: [
     "Developed multiple WordPress websites with custom themes and plugin configurations",
     "Implemented responsive designs to ensure mobile and desktop compatibility",
     "Optimized website performance and SEO for client projects",
-    "Built a React + Firebase application with authentication, database, and real-time features",
+    "Built React + Firebase application with authentication, database, and real-time features",
     "Managed deployment, hosting setup, and Git-based version control for projects"
   ],
   tech: ["WordPress", "React", "Firebase", "HTML", "CSS", "JavaScript",  "Tailwind CSS"],
@@ -198,12 +198,12 @@ export const EXPERIENCE = [
     title: "MERN Stack Intern",
     company: "IROHUB INFOTECH",
     location: "Remote (Kochi, India)",
-    duration: "Jan 2025 — Jul 2025",
+    duration: "Jan 2025 — Jun 2025",
     type: "internship",
     description:
       "Completed a full-stack internship focusing on building MERN applications, understanding deployment workflows, and implementing CRUD operations.",
     achievements: [
-      "Developed multiple full-stack projects using MongoDB, Express, React, and Node.js",
+      "Developed full-stack projects using MongoDB, Express, React, and Node.js",
       "Integrated third-party APIs and authentication systems",
       "Learned version control with Git and project deployment best practices",
       "Gained experience with frontend-backend integration and database design"

@@ -71,8 +71,8 @@ export function HeroSection() {
             variants={itemVariants}
             className="mt-4 text-xl font-medium text-muted-foreground sm:text-2xl"
           >
-            Junior Backend Developer | Full Stack Developer (Early Career) &mdash; I build{" "}
-            <span className="text-foreground font-semibold">scalable backend systems, APIs, and deploy real-world applications</span>{" "}
+            Junior Backend Developer | WordPress Developer | Full Stack Developer (Early Career) &mdash; I build{" "}
+            <span className="text-foreground font-semibold">static and dynamic websites, scalable backend systems, APIs, and deploy real-world applications</span>{" "}
             using modern web technologies.
           </motion.p>
 
@@ -81,7 +81,7 @@ export function HeroSection() {
             variants={itemVariants}
             className="mt-5 max-w-4xl text-base leading-relaxed text-muted-foreground text-pretty"
           >
-            Web Developer with 1+ year of experience developing web applications using Next.js, React, TypeScript, MongoDB and Supabase. 
+            Web Developer with 1+ year of experience developing web applications using Next.js, React, TypeScript, MongoDB and Supabase, websites using WordPress. 
             Passionate about building scalable applications, improving developer experience, and creating clean, efficient code.
           </motion.p>
 

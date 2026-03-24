@@ -5,9 +5,9 @@ import { Github, Linkedin, Mail, Code2 } from "lucide-react"
 import { NAV_LINKS } from "@/lib/data"
 
 const SOCIAL_LINKS = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:alex@devhq.io", label: "Email" },
+  { icon: Github, href: "https://github.com/LakshmiKrishnaSanjay", label: "GitHub" },
+  { icon: Linkedin, href: "www.linkedin.com/in/lakshmiksanjay", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:lakshmiksanjay@gmail.com", label: "Email" },
 ]
 
 export function Footer() {
