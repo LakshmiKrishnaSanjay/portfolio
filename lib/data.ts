@@ -127,6 +127,7 @@ export const PROJECTS = [
   githubUrl: "https://github.com/LakshmiKrishnaSanjay",
   featured: false,
 },
+
 ];
 
 export const CASE_STUDIES = [
