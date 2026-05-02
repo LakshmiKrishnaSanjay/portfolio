@@ -64,6 +64,7 @@ export function AboutSection() {
     <span className="text-foreground font-medium">React</span>,{" "}
     <span className="text-foreground font-medium">Next.js</span>,{" "}
     <span className="text-foreground font-medium">Supabase</span>,{" "}
+    <span className="text-foreground font-medium">WordPress</span>,{" "}
     <span className="text-foreground font-medium">Firebase</span>, and{" "}
     <span className="text-foreground font-medium">MongoDB</span> to develop applications that handle
     authentication, data management, and user workflows.

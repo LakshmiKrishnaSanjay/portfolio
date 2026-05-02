@@ -25,7 +25,7 @@ export const SKILLS = [
   {
     category: "Tools & Platforms",
     icon: "Wrench",
-    skills: ["Git", "GitHub", "Vercel", "WordPress", "Postman", "Firebase Hosting" ,  "VS Code"],
+    skills: ["WordPress", "Git", "GitHub", "Vercel", "Postman", "Firebase Hosting" ,  "VS Code"],
   },
   // {
   //   category: "DevOps",
@@ -91,6 +91,7 @@ export const PROJECTS = [
     githubUrl: "https://github.com/LakshmiKrishnaSanjay/EstateHub",
     featured: true,
   },
+
   {
   id: "babymom-ecommerce-website",
   title: "BabyMom E-Commerce Website",
@@ -107,6 +108,25 @@ export const PROJECTS = [
   tags: ["WordPress", "E-Commerce", "Shop"],
   liveUrl: "https://babymomfashion.com/", // replace if hosted
   githubUrl: "https://github.com/LakshmiKrishnaSanjay", 
+  featured: false,
+},
+{
+  id: "copernicus",
+  title: "Copernicus",
+  summary:
+    "A modern brand studio website created for Copernicus to showcase agency services, selected works, client partnerships, and creative capabilities through a clean, premium digital experience.",
+  image: "/images/copernicus.png",
+  tech: ["WordPress", "Plugins", "CSS" , "SEO"],
+  features: [
+    "Premium agency homepage layout",
+    "Service showcase for branding, design, digital marketing, film, and events",
+    "Selected works and client presentation",
+    "Responsive design for all screen sizes",
+    "WordPress-based editable backend",
+  ],
+  tags: ["WordPress", "Creative Agency", "Brand Studio"],
+  liveUrl: "https://mediumorchid-owl-171330.hostingersite.com/",
+  githubUrl: "https://github.com/LakshmiKrishnaSanjay",
   featured: false,
 },
 {
@@ -162,22 +182,25 @@ export const CASE_STUDIES = [
 ]
 
 export const EXPERIENCE = [
-  {
-    title: "Backend Developer",
-    company: "NEO DIGITAL HUB",
-    location: "Remote (Dubai, UAE)",
-    duration: "Feb 2025 — Present",
-    type: "full-time",
-    description:
-      "Developed backend systems for client projects, including REST APIs for authentication, database schema design using Supabase, and integration of payment gateways and notification services.",
-    achievements: [
-      "Developed and maintained REST APIs and real-time features for internal projects",
-      "Integrated Supabase for authentication and database management",
-      "Optimized backend performance and data querying for faster response times",
-      "Implemented secure user authentication and role-based access control"
-    ],
-    tech: ["Next.js", "Node.js","React", "Supabase", "TypeScript", "MongoDB" , "APIs"],
-  },
+{
+  title: "Full Stack Developer",
+  company: "NEO DIGITAL HUB",
+  location: "Remote (Dubai, UAE)",
+  duration: "Feb 2025 — Present",
+  type: "full-time",
+  description:
+    "Developed and managed full-stack solutions for client projects, including REST APIs, frontend interfaces, database design using Supabase, and integration of payment gateways and notification services. Also handled WordPress development and customization.",
+  achievements: [
+    "Developed and maintained REST APIs and frontend features for internal and client projects",
+    "Integrated Supabase for authentication and database management",
+    "Built and customized WordPress websites for business needs",
+    "Optimized backend performance and data querying for faster response times",
+    "Implemented secure user authentication and role-based access control",
+    "Tested and managed the company’s newly developed CRM system",
+    "Handled bug tracking, validation, and overall CRM performance monitoring"
+  ],
+  tech: ["Next.js", "Node.js", "React", "Supabase", "TypeScript", "MongoDB", "WordPress", "APIs"],
+},
 {
   title: "Web Developer",
   company: "AdsPro Web Services",

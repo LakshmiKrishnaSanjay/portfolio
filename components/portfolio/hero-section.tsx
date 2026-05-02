@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 
 const TECH_BADGES = [
-  "React", "Next.js","JavaScript", "TypeScript", "Node.js","MongoDB", "Supabase","Firebase",
+  "React", "Next.js","JavaScript", "TypeScript", "Node.js","MongoDB", "Supabase","Firebase", "WordPress",
 ]
 
 const SOCIAL_LINKS = [
@@ -74,7 +74,7 @@ export function HeroSection() {
 
             
             Full Stack Developer &mdash; I build web applications from database to deployment using {" "}
-            <span className="text-foreground font-semibold">React, Next.js, Node.js, and modern cloud platforms.</span>
+            <span className="text-foreground font-semibold">React, Next.js, Node.js, and WordPress.</span>
           </motion.p>
 
           {/* Bio */}
